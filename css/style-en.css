@@ -1,0 +1,92 @@
+body{
+    direction: ltr;
+}
+.bi-arrow-left,
+svg.fa-arrow-left-long{
+    transform: rotateY(180deg);
+}
+.Stars {
+    transform: rotateY(180deg);
+    direction: rtl;
+}
+.news .owl-nav {
+    left: auto;
+    right: 1rem;
+
+}
+.our-team .doc-item img {
+    margin-left: 0;
+    margin-right: 1rem;
+}
+.gallery .nav-pills .nav-link {
+    padding: 0  1.2rem 2rem 0;
+}
+.gallery-tab-img {
+    margin-right: 10px;
+    margin-left: 0;
+}
+footer input.form-control {
+    padding: 0.85rem 1rem 0.85rem 3rem;
+}
+.form-groub svg {
+    right: auto;
+    left: 1.5rem;
+}
+.news .news-wrapper .date img {
+    margin-left: 0;
+    margin-right: 5px;
+}
+.work .card .card-image,
+.work .center-img {
+    margin-left: 0;
+    margin-right: 10px;
+}
+.work .card-between {
+    right: 25px;
+    left: auto !important;
+}
+header.breadcrumb span{
+    transform: rotate(180deg);
+}
+.help .accordion-button::after {
+    margin-right: 0;
+    margin-left: auto;
+}
+.privacy li {
+    padding-left: 2.5rem;
+    padding-right: 0;
+}
+.privacy li::before {
+    right: auto;
+    left: 0;
+}
+.single-news .news-header img {
+    margin-right: 5px;
+    margin-left: 0;
+}
+.single-news .news-details.note p {
+    padding-right: 0;
+    padding-left: 2.5rem;
+}
+.single-news .news-details.note p::after {
+    right: auto;
+    left: 0;
+}
+.privacy.terms li {
+    padding-left: 2rem;
+    padding-right: 0;
+}
+
+
+.pe-3 {
+    padding-left: 1rem!important;
+    padding-right: 0 !important;
+}
+@media (min-width: 992px){
+    .sub-gallery .container {
+        padding-right: 0;
+        margin-right: 0;
+        padding-left: var(--bs-gutter-x,.75rem);
+        margin-left: auto;
+    }
+}

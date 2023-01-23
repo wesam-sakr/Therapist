@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>therapist</title>
+
+    <link rel="icon" type="image/x-icon" href="images/Group 3.png" />
+
+    <!-- Bootstrap link  -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
+      />
+
+    <!-- font awesom link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+      />
+    
+    <!-- fancyBox -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/country-select-js/2.1.1/css/countrySelect.min.css"
+      integrity="sha512-HHSUgqDtmyVfGT0pdLVRKcktf9PfLMfFzoiBjh9NPBzw94YFTS5DIwZ12Md/aDPcrkOstXBp9uSAOCl5W2/AOQ=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" /> <!-- owl-carousel link -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+
+    <!-- rateyo link -->
+    <link rel="stylesheet" href="css/jquery.rateyo.min.css" />
+
+    <!-- aos link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- WoW link -->
+    <link rel="stylesheet" href="css/animate.css" />
+
+    <!-- animate link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      />
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- custom css EN file link  -->
+    <!-- <link rel="stylesheet" href="css/style-en.css" /> -->
+
+  </head>
+  <body>
+    <!-- -------- loading ----------- -->
+    <div id="loading">
+      <div class="loader">
+        <img src="images/logo.png" alt="" />
+      </div>
+    </div>
+    <!-- -------- loading ends ----------- -->
+
+    <!-- -------- scroll top ----------- -->
+    <a href="https://api.whatsapp.com/send?phone=01062950780" id="scroll-top" target="_blank">
+      <i class="fa-brands fa-whatsapp"></i>
+    </a>
+    <!-- -------- scroll top ends ----------- -->
+    <!-- navbar -->
+
+    <nav class="navbar navbar-expand-lg bg-white container" id="navbar">
+      <div class="container nav-bar">
+        <div class="logo">
+          <a class="navbar-brand" href="/index.html">
+            <img src="./images/logo.png" alt="" />
+          </a>
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo03"
+          aria-controls="navbarTogglerDemo03"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"><i class="bi bi-list"></i></span>
+        </button>
+       
+        <div
+          class="collapse navbar-collapse d-lg-flex justify-content-between"
+          id="navbarTogglerDemo03"
+        >
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+            <li class="nav-item px-2">
+              <a class="nav-link active" aria-current="page" href="#"
+                >الرئيسية</a
+              >
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link" href="/about.html">لماذا نحن ؟</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link" href="/work.html"> كيف نعمل؟</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link" href="/team.html"> فريق العمل</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link" href="/news.html"> الأخبار</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link" href="/blog.html"> المدونة</a>
+            </li>
+          </ul>
+          <div>
+            <button class="btn">English</button>
+            <button class="btn btn-contact ms-3">
+              <a href="./contact.html" class="text-white">
+              تواصل معنا
+            </a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <header>
+      <img src="./images/header bg.jpeg+2.jpg" alt="" />
+
+      <div class="content">
+        <div class="paragraph">
+          <h3 class="animate__animated animate__zoomInRight animate__slow">
+            تحدث مع <span class="special">طبيبك النفسي</span> ، بكل خصوصية في آي
+            وقت ومن كل مكان
+          </h3>
+          <p
+            class="paragraph animate__animated animate__bounceInRight animate__slow"
+          >
+            مجمع طبي متخصص في الطب والعلاج النفسي نقدم خدماتنا النفسية التثقيفية
+            و التشخيصية و العلاجية من قبل الأطباء و الأخصائيين النفسيين بالمجمع
+            و لمختلف الأعمار
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <!-- about us -->
+    <section class="about">
+      <div class="container">
+        <div class="row">
+          <div class=" col-md-6 col-12" data-aos="fade-left" data-aos-duration="800">
+            <div class="part-text ps-4">
+              <h4 class="sub-title">لماذا نحن ؟</h4>
+              <p class="text-about pb-3">اعثر على <span class="special">حلولك الطبية</span> 
+                 <br>
+                 بسرعة وسهولة في <span class="special">عقل سليم</span>
+                 
+                </p>
+                <ul>
+                  <li>
+                    <h5 class="py-2">
+                      <img src="./images/true.png" class="true" alt="">
+                      الرؤية
+                    </h5>
+                    <p class="pb-2"> مجمع طبي متخصص في الطب والعلاج النفسي نقدم خدماتنا النفسية التثقيفية و التشخيصية و العلاجية من قبل الأطباء و الأخصائيين النفسيين </p>
+                  </li>
+                  <li>
+                    <h5 class="py-2">
+                      <img src="./images/true.png" class="true" alt="">
+                      الرسالة</h5>
+                    <p class="pb-2"> مجمع طبي متخصص في الطب والعلاج النفسي نقدم خدماتنا النفسية التثقيفية و التشخيصية و العلاجية من قبل الأطباء و الأخصائيين النفسيين </p>
+                  </li>
+                  <li>
+                    <h5 class="py-2">
+                      <img src="./images/true.png" class="true" alt="">
+                      الهدف</h5>
+                    <p class="pb-2"> مجمع طبي متخصص في الطب والعلاج النفسي نقدم خدماتنا النفسية التثقيفية و التشخيصية و العلاجية من قبل الأطباء و الأخصائيين النفسيين </p>
+                  </li>
+                </ul>
+            </div>
+            
+          </div>
+          <div class="col-md-6 col-12 position-relative part-image" data-aos="fade-right" data-aos-duration="800" data-aos-delay="300">
+            <img src="./images/layout.png" class="layout-image" alt="">
+            <img src="./images/about.jpg" class="about-image " alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- work -->
+    <section class="work">
+      <div class="container">
+        <div class="title-work text-center pb-5">
+          <h4 class="sub-title">كيف نعمل؟</h4>
+          <h5 class="head-title">أن الخدمة يقوم بتقديمها <span class="special">  الممارس الصحي<br></span> المرخص الذي يزاول عمله الفعلي بالمجمع لدينا</h5>
+         
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-12 mb-3"  data-aos="fade-down-left" data-aos-duration="600">
+            <div class="card">
+              <div class="d-flex align-items-center pb-3">
+                <div class="card-image">
+                  <img src="./images/svgexport-7 (89).svg" alt="">
+               </div>
+               <h6 class="head-title text-dark"> تواصل مع الطبيب المناسب</h6>
+              </div>
+              <p class="cut-text">مجمع طبي متخصص في الطب والعلاج النفسي نقدم خدماتنا النفسية التثقيفية و التشخيصية و العلاجية من قبل الأطباء و الأخصائيين النفسيين
+                مجمع طبي متخصص في الطب والعلاج النفسي نقدم خدماتنا النفسية التثقيفية و التشخيصية و العلاجية من قبل الأطباء و الأخصائيين النفسيين
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-12 position-relative " data-aos="fade-down-left" data-aos-duration="600" data-aos-delay="300">
+            <img src="./images/Path 25057.svg" alt="" class="layout-between">
+            <div class="card-between position-absolute top-0 start-0">
+              <div class="d-flex align-items-center pb-3">
+                  <img src="./images/svgexport-7 (90).svg" class="center-img" alt="">
+               <h6 class="head-title text-dark">احجز جلستك</h6>
+              </div>
+              <p class="cut-text">
+                مجمع طبي متخصص في الطب والعلاج النفسي نقدم خدماتنا
+
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-12" data-aos="fade-down-left" data-aos-duration="600" data-aos-delay="600">
+            <div class="card">
+              <div class="d-flex align-items-center pb-3">
+                <div class="card-image">
+                  <img src="./images/svgexport-7 (91).svg" alt="">
+               </div>
+               <h6 class="head-title text-dark"> إبدأ جلستك العلاجية</h6>
+              </div>
+              <p class="cut-text">مجمع طبي متخصص في الطب والعلاج النفسي نقدم خدماتنا النفسية التثقيفية و التشخيصية و العلاجية من قبل الأطباء و الأخصائيين النفسيين</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="our-team sub-team">
+      <div class="container my-5">
+        <div class="d-flex justify-content-between">
+          <h4 class="sub-title">فريق عملنا</h4>
+          <a href="team.html" class="d-flex align-items-center green-txt">
+            المزيد
+            <i class="bi bi-arrow-left fs-5 px-2"></i>
+          </a>
+        </div>
+        <div class="row gy-4">
+          <div class="col-lg-4" data-aos="fade-left" data-aos-duration="800">
+            <h5 class="fw-bold mb-4">
+              يمكن<span class="green-txt"> للطبيب أو الأخصائي النفسي</span> متابعة حالتك بالطريقة المناسبة لك حضوريا أو بالطب الإتصالي عن طريق التطبيق أو بهما معاً حسب ظروفك
+            </h5>
+            <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+              <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">
+                <div class="img-tab">
+                  <img src="images/doctor.svg" alt="">
+                </div>
+                الأطباء النفسيين
+                <i class="fa-solid fa-arrow-left-long"></i>
+              </button>
+              <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+                <div class="img-tab">
+                  <img src="images/assestant.svg" alt="">
+                </div>
+                الأخصائيين النفسيين
+                <i class="fa-solid fa-arrow-left-long"></i>
+              </button>
+            </div>
+          </div>
+          <div class="team-members col" data-aos="fade-right" data-aos-duration="800" data-aos-delay="300">
+            <div class="d-flex align-items-start">
+              <div class="tab-content" id="v-pills-tabContent">
+                <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab" tabindex="0">
+                  <div class="row gy-4">
+                    <div class="team-member col-sm-6">
+                      <div class="doc-item">
+                        <a href="member-details.html" class="link"></a>
+                        <img src="images/doctor.jpg" alt="">
+                        <div>
+                          <h6 class="fw-bold">د / محمود الشاذلي</h6>
+                          <p class="my-2">طبيب نفسي</p>
+                          <div class="Stars" style="--rating:4"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="team-member col-sm-6">
+                      <div class="doc-item">
+                        <a href="member-details.html" class="link"></a>
+                        <img src="images/doctor.jpg" alt="">
+                        <div>
+                          <h6 class="fw-bold">د / محمود الشاذلي</h6>
+                          <p class="my-2">طبيب نفسي</p>
+                          <div class="Stars" style="--rating:4"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="team-member col-sm-6">
+                      <div class="doc-item">
+                        <a href="member-details.html" class="link"></a>
+                        <img src="images/doctor.jpg" alt="">
+                        <div>
+                          <h6 class="fw-bold">د / محمود الشاذلي</h6>
+                          <p class="my-2">طبيب نفسي</p>
+                          <div class="Stars" style="--rating:4"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="team-member col-sm-6">
+                      <div class="doc-item">
+                        <a href="member-details.html" class="link"></a>
+                        <img src="images/doctor.jpg" alt="">
+                        <div>
+                          <h6 class="fw-bold">د / محمود الشاذلي</h6>
+                          <p class="my-2">طبيب نفسي</p>
+                          <div class="Stars" style="--rating:4"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0">
+                  <div class="row gy-4">
+                    <div class="team-member col-sm-6">
+                      <div class="doc-item">
+                        <a href="member-details.html" class="link"></a>
+                        <img src="images/doctor.jpg" alt="">
+                        <div>
+                          <h6 class="fw-bold">د / محمود الشاذلي</h6>
+                          <p class="my-2">طبيب نفسي</p>
+                          <div class="Stars" style="--rating:4"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="team-member col-sm-6">
+                      <div class="doc-item">
+                        <a href="member-details.html" class="link"></a>
+                        <img src="images/doctor.jpg" alt="">
+                        <div>
+                          <h6 class="fw-bold">د / محمود الشاذلي</h6>
+                          <p class="my-2">طبيب نفسي</p>
+                          <div class="Stars" style="--rating:4"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="team-member col-sm-6">
+                      <div class="doc-item">
+                        <a href="member-details.html" class="link"></a>
+                        <img src="images/doctor.jpg" alt="">
+                        <div>
+                          <h6 class="fw-bold">د / محمود الشاذلي</h6>
+                          <p class="my-2">طبيب نفسي</p>
+                          <div class="Stars" style="--rating:4"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="team-member col-sm-6">
+                      <div class="doc-item">
+                        <a href="member-details.html" class="link"></a>
+                        <img src="images/doctor.jpg" alt="">
+                        <div>
+                          <h6 class="fw-bold">د / محمود الشاذلي</h6>
+                          <p class="my-2">طبيب نفسي</p>
+                          <div class="Stars" style="--rating:4"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery sub-gallery">
+      <div class="container py-5">
+        <div class="row gy-4 align-items-md-end">
+          <div class="col-lg-4" data-aos="fade-up-right" data-aos-duration="800" >
+            <h3 class="fw-bold mb-4" style="line-height: 1.8;">
+              استكشف ماذا يحدث 
+              <br>
+              <span class="green-txt">داخل المجمع الطبي</span>
+
+            </h3>
+            <div class="nav nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+              <button class="nav-link active" id="v-pills-gallery-img-tab" data-bs-toggle="pill" data-bs-target="#v-pills-gallery-img" type="button" role="tab" aria-controls="v-pills-gallery-img" aria-selected="true">
+                <div class="gallery-tab-img">
+                  <img src="images/image.svg" alt="">
+                </div>
+                شاهد الصور
+              </button>
+              <button class="nav-link" id="v-pills-gallery-vid-tab" data-bs-toggle="pill" data-bs-target="#v-pills-gallery-vid" type="button" role="tab" aria-controls="v-pills-gallery-vid" aria-selected="false">
+                <div class="gallery-tab-img">
+                  <img src="images/play.png" alt="">
+                </div>
+                شاهد الفيديو
+              </button>
+            </div>
+            <p style="line-height: 1.9;">مجمع طبي متخصص في الطب والعلاج النفسي نقدم خدماتنا النفسية التثقيفية و التشخيصية و العلاجية من قبل الأطباء و الأخصائيين النفسيين  بالمجمع و لمختلف الأعمار </p>
+            <a href="gallery.html" class="btn more-btn">المزيد</a>
+          </div>
+          <div class="col-lg-8" data-aos="fade-up-left" data-aos-duration="800" data-aos-delay="200">
+            <div class="d-flex align-items-start">
+              <div class="tab-content" id="v-pills-tabContent">
+                <div class="tab-pane fade show active" id="v-pills-gallery-img" role="tabpanel" aria-labelledby="v-pills-gallery-img-tab" tabindex="0">
+                  <div class="row m-0 gy-4 owl-carousel">
+                    <div class="item">
+                      <div class="gallery-wrapper">
+                        <a data-fancybox="gallery" href="images/doctor.jpg">
+                          <img src="images/doctor.jpg" class="w-100 h-100" alt="">
+                        </a>
+                        <img src="images/doctor.jpg" class="w-100 h-100" alt="">
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="gallery-wrapper">
+                        <img src="images/doctor.jpg" class="w-100 h-100" alt="">
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="gallery-wrapper">
+                        <img src="images/doctor.jpg" class="w-100 h-100" alt="">
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="gallery-wrapper">
+                        <img src="images/doctor.jpg" class="w-100 h-100" alt="">
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="gallery-wrapper">
+                        <img src="images/doctor.jpg" class="w-100 h-100" alt="">
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="gallery-wrapper">
+                        <img src="images/doctor.jpg" class="w-100 h-100" alt="">
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="gallery-wrapper">
+                        <img src="images/doctor.jpg" class="w-100 h-100" alt="">
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="gallery-wrapper">
+                        <img src="images/doctor.jpg" class="w-100 h-100" alt="">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="v-pills-gallery-vid" role="tabpanel" aria-labelledby="v-pills-gallery-vid-tab" tabindex="0">
+                  <div class="row m-0 gy-4 owl-carousel">
+                    <div class="item">
+                      <div class="gallery-wrapper">
+                        <img src="images/doctor.jpg" alt="" class="video-cover-img">
+                        <a data-fancybox="video" href="images/vid.mp4">
+                          <span class="op-video">
+                            <i class="fa-solid fa-play"></i>
+                          </span>
+                          <video class="video" controls=""  width="100%" height="100%">
+                            <source src="images/vid.mp4" type="video/mp4">
+                          </video>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="gallery-wrapper">
+                        <img src="images/doctor.jpg" alt="" class="video-cover-img">
+                        <a data-fancybox="video" href="images/vid.mp4">
+                          <span class="op-video">
+                            <i class="fa-solid fa-play"></i>
+                          </span>
+                          <video class="video" controls=""  width="100%" height="100%">
+                            <source src="images/vid.mp4" type="video/mp4">
+                          </video>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="gallery-wrapper">
+                        <img src="images/doctor.jpg" alt="" class="video-cover-img">
+                        <a data-fancybox="video" href="images/vid.mp4">
+                          <span class="op-video">
+                            <i class="fa-solid fa-play"></i>
+                          </span>
+                          <video class="video" controls=""  width="100%" height="100%">
+                            <source src="images/vid.mp4" type="video/mp4">
+                          </video>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="gallery-wrapper">
+                        <img src="images/doctor.jpg" alt="" class="video-cover-img">
+                        <a data-fancybox="video" href="images/vid.mp4">
+                          <span class="op-video">
+                            <i class="fa-solid fa-play"></i>
+                          </span>
+                          <video class="video" controls=""  width="100%" height="100%">
+                            <source src="images/vid.mp4" type="video/mp4">
+                          </video>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="gallery-wrapper">
+                        <img src="images/doctor.jpg" alt="" class="video-cover-img">
+                        <a data-fancybox="video" href="images/vid.mp4">
+                          <span class="op-video">
+                            <i class="fa-solid fa-play"></i>
+                          </span>
+                          <video class="video" controls=""  width="100%" height="100%">
+                            <source src="images/vid.mp4" type="video/mp4">
+                          </video>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="gallery-wrapper">
+                        <img src="images/doctor.jpg" alt="" class="video-cover-img">
+                        <a data-fancybox="video" href="images/vid.mp4">
+                          <span class="op-video">
+                            <i class="fa-solid fa-play"></i>
+                          </span>
+                          <video class="video" controls=""  width="100%" height="100%">
+                            <source src="images/vid.mp4" type="video/mp4">
+                          </video>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="news py-5">
+      <div class="container">
+        <h4 class="py-5">آخر أخبار المجمع</h4>
+        <div class="owl-carousel">
+          <div class="item"  data-aos="fade-down-left" data-aos-duration="600">
+            <div class="news-wrapper">
+              <div class="row">
+                <div class="col-6">
+                  <div class="news-wrapper-img">
+                    <img src="images/doctor2.jpg" class="w-100" alt="">
+                  </div>
+                </div>
+                <div class="col-6">
+                  <h5 class="fw-bold py-3">العنوان يكتب هنا</h5>
+                  <div class="date">
+                    <img src="images/news-calender.svg" alt="">
+                    <strong class="blue-txt">24/11/2022</strong>
+                  </div>
+                  <p class="cut-text">مجمع طبي متخصص في الطب والعلاج النفسي نقدم خدماتنا النفسية التثقيفية و التشخيصية و العلاجية من قبل الأطباء و الأخصائيين النفسيين بالمجمع و لمختلف الأعمار</p>
+                  <div class="more">
+                    <a href="single-news.html" class="link">
+                    </a>
+                    <span class="green-txt">المزيد</span> 
+                    <i class="fa-solid fa-arrow-left-long"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item" data-aos="fade-down-left" data-aos-duration="600" data-aos-delay="300">
+            <div class="news-wrapper">
+              <div class="row">
+                <div class="col-6">
+                  <div class="news-wrapper-img">
+                    <img src="images/doctor2.jpg" class="w-100" alt="">
+                  </div>
+                </div>
+                <div class="col-6">
+                  <h5 class="fw-bold py-3">العنوان يكتب هنا</h5>
+                  <div class="date">
+                    <img src="images/news-calender.svg" alt="">
+                    <strong class="blue-txt">24/11/2022</strong>
+                  </div>
+                  <p class="cut-text">مجمع طبي متخصص في الطب والعلاج النفسي نقدم خدماتنا النفسية التثقيفية و التشخيصية و العلاجية من قبل الأطباء و الأخصائيين النفسيين بالمجمع و لمختلف الأعمار</p>
+                  <div class="more">
+                    <a href="single-news.html" class="link">
+                    </a>
+                    <span class="green-txt">المزيد</span> 
+                    <i class="fa-solid fa-arrow-left-long"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="news-wrapper">
+              <div class="row">
+                <div class="col-6">
+                  <div class="news-wrapper-img">
+                    <img src="images/doctor2.jpg" class="w-100" alt="">
+                  </div>
+                </div>
+                <div class="col-6">
+                  <h5 class="fw-bold py-3">العنوان يكتب هنا</h5>
+                  <div class="date">
+                    <img src="images/news-calender.svg" alt="">
+                    <strong class="blue-txt">24/11/2022</strong>
+                  </div>
+                  <p class="cut-text">مجمع طبي متخصص في الطب والعلاج النفسي نقدم خدماتنا النفسية التثقيفية و التشخيصية و العلاجية من قبل الأطباء و الأخصائيين النفسيين بالمجمع و لمختلف الأعمار</p>
+                  <div class="more">
+                    <a href="single-news.html" class="link">
+                    </a>
+                    <span class="green-txt">المزيد</span> 
+                    <i class="fa-solid fa-arrow-left-long"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="get-app">
+      <div class="container">
+        <div class="row gy-3 align-items-center justify-content-between">
+          <div class="col-12 col-lg-6">
+            <p>
+              استمتع بتجربة أكثر سلاسة وسهولة على هاتفك ، قم بتحميل التطبيق الآن
+            </p>
+          </div>
+          <div class="col-auto">
+            <a href="" target="_blank" class="btn get-app-btn mx-2">
+              <i class="fa-brands fa-google-play"></i>
+              <span>google play</span>
+            </a>
+            <a href="" target="_blank" class="btn get-app-btn">
+              <i class="fa-brands fa-apple" style="font-size: 22px;"></i>
+              <span>app store</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="logo-wrapper">
+          <div></div>
+          <img src="images/logo.png" alt="" width="200px">
+          <div></div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-auto" data-aos="fade-right" data-aos-duration="600" >
+            <ul class="nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">الرئيسية</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">لماذا نحن؟</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="news.html">الأخبار</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="team.html">فريق العمل</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">المدونة</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-auto">
+            <div class="social">
+              <div>
+                <a href="">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </a>
+              </div>
+              <div>
+                <a href="">
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+              </div>
+              <div>
+                <a href="">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-auto" data-aos="fade-down-left" data-aos-duration="600" >
+            <ul class="nav">
+              <li class="nav-item">
+                <a class="nav-link" href="privacy.html">سياسية الخصوصية</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="terms.html">الشروط والأحكام</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="help.html">المساعدة</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="u-line"></div>
+        <div class="row gy-3 align-items-center justify-content-center" data-aos="fade-up" data-aos-duration="600" data-aos-delay="300">
+          <div class="col-lg-5">
+            <h5 class="green-txt fw-bold text-center">القائمة البريدية</h5>
+            <p>اشترك في النشرة الإخبارية لدينا ولا الأخبار وآخر التحديثات والعروض الخاصة بالمجمع الطبي</p>
+            <form action="">
+              <div class="row">
+                <div class="col">
+                  <div class="form-groub">
+                    <input type="email" placeholder="بريدك الإلكتروني" class="form-control">
+                    <i class="fa-sharp fa-solid fa-envelope"></i>
+                  </div>
+                </div>
+                <div class="col-auto p-md-0">
+                  <button type="submit ">اشترك</button>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="col-sm-10">
+            <div class="sub-footer">
+              <a href="https://smartvision4p.com" target="_blank" class="link"></a>
+              <div class="m-auto d-flex align-items-center">
+                <i class="fa-regular fa-copyright" style="font-size: 20px;"></i>
+                <span class="px-4">جميع الحقوق محفوظة لموقع سمارت فيجن للتصميم والبرمجة</span>
+              </div>
+              <img src="images/logooo.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- jQuery script -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <!-- countrySelect  -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/country-select-js/2.1.1/js/countrySelect.min.js"
+      integrity="sha512-criuU34pNQDOIx2XSSIhHSvjfQcek130Y9fivItZPVfH7paZDEdtAMtwZxyPq/r2pyr9QpctipDFetLpUdKY4g=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- owl-carousel script -->
+    <script src="js/owl.carousel.min.js"></script>
+
+    <!-- bootstrap script -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+    <!-- font awesom script -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"
+      integrity="sha512-6PM0qYu5KExuNcKt5bURAoT6KCThUmHRewN3zUFNaoI6Di7XJPTMoT6K0nsagZKk2OB4L7E3q1uQKHNHd4stIQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"></script>
+
+    <!-- rateyo script -->
+    <script src="js/jquery.rateyo.min.js"></script>
+
+    <!-- aos script -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <!-- wow script -->
+    <script src="js/wow.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
