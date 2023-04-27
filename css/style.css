@@ -364,7 +364,7 @@ header {
 }
 header.breadcrumb{
   height: 50vh !important;
-  margin-bottom: 7rem;
+  margin-bottom: 3rem;
 }
 header.breadcrumb img {
   object-fit: cover;
@@ -1046,6 +1046,7 @@ footer .social div a{
 }
 .contact h4{
   font-family: 'Fairuz-Bold';
+  margin-bottom: .5rem;
 }
 .contact form input{
   background: transparent;
