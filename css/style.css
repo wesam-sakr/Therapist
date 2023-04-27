@@ -419,6 +419,7 @@ header .content .paragraph {
   background: var(--white);
   color: var(--secondary-color);
   font-family: "Fairuz-Bold";
+  padding: 0 8px;
 }
 .navbar .logo img {
   width: 100px;
@@ -493,6 +494,7 @@ nav .btn {
   border-radius: 35px 0;
   transition: all 0.2s ease-in-out;
   border: 1px solid var(--secondary-color);
+  object-fit: cover;
 }
 .about .part-image:hover .layout-image{
   transform: rotateY(180deg);
@@ -827,10 +829,11 @@ margin-left: 10px !important;
   width: 150px;
 }
 
-.single-news .news-img, .single-news>.container>img{
-  height: 60vh !important;
+.single-news .news-img img, .single-news>.container>img{
+  height: 50vh !important;
   border-radius: 0px 40px;
   overflow: hidden;
+  object-fit: cover;
 }
 .single-news  .news-header{
   padding-top: 2rem ;
