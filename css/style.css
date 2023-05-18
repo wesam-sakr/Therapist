@@ -48,7 +48,7 @@ html {
 
 body {
   overflow: hidden;
-
+  background: #fff !important;
   overflow-x: hidden;
   direction: rtl;
 }
